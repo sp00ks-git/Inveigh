@@ -1,3 +1,7 @@
+```
+Invoke-Inveigh -ConsoleOutput Y -StatusOutput Y  -ADIDNS COMBO -NBNS Y -ADIDNSThreshold 2 -FileOutput Y -FileOutputDirectory "C:\DIRECTORY" -LLMNR Y -mDNS Y
+```
+
 # Inveigh
 
 Inveigh is a cross-platform .NET IPv4/IPv6 machine-in-the-middle tool for penetration testers. This repo contains the primary C# version as well as the legacy PowerShell version.  
